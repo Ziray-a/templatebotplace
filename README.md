@@ -24,61 +24,80 @@ Removes managers from the settings ManID list.
 
 `<prefix> OverlayOff <sub>` 
 >Manager Mode
+
 deactivates the user overlay for a singular sub, has no restrictions
 
 `<prefix> OverlayOn <sub>`
 >Manager Mode
+
 activates the user overlay for a singular sub, has no restrictions
 
 `<prefix> BotOff <sub>`
 >Manager Mode
+
 deactivates the bot overlay for a singular sub, has no restrictions
 
 `<prefix> BotOn <sub>`
 >Manager Mode
+
 activates the user overlay for a singular sub, has no restrictions
 
 `<prefix> AddSub <sub>`
 >Requires an Image uploaded
+
 Adds a sub to the list of already existing subs, the additional uploaded image is used
 to asign space to said sub
 
 `<prefix> RemSub <sub>`
+
 Removes a Subreddit from the list of already existing subs
 
 `<prefix> updateTemplate <sub>`
 >Manager Mode
+
 >Requires an Image uploaded
+
 This one will either update an existing Template without errors, or will query you to confirm a change
 if the Size, position or number of alocated pixels is different from before (this will override pixels make sure to check that it doesnt encroach on anyones template), THIS IS THE ONLY WAY TO asign additional pixels 
 
 `<prefix> AddRep <sub> <@mention>`
+
 Adds a representative to the respective sub 
 
 `<prefix> RemRep <sub> <@mention>`
+
 removes a representative to the respective sub 
 
 ## Rep Commands
 *weakened versions of manager commands*
+
 `<prefix> updateTemplate <sub>`
+>Requires an Image uploaded
+
+updates Template, cannot override size
 
 `<prefix> OverlayOff <sub>` 
+
 deactivates the user overlay for a singular sub,
 only works for subs you represent
 
 `<prefix> OverlayOn <sub>`
+
 activates the user overlay for a singular sub, 
 only works for subs you represent
 
 `<prefix> BotOff <sub>`
+
 deactivates the bot overlay for a singular sub,
 only works for subs you represent
 
 `<prefix> BotOn <sub>`
+
 activates the user overlay for a singular sub,
 has no restrictions
 
 
 ## Public commands
 `<prefix> getTemplate <sub>`
+
 Will fetch the Template of the sub mentioned
