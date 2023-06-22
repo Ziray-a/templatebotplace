@@ -1,3 +1,5 @@
+module.exports = { writesettings, loadsettings, addadmin,remadmin,addmanager,remmanager };
+const fs = require("fs");
 //uses JSON to store settings
 function writesettings(settings,filelocation){
     const fileName = filelocation;
@@ -10,19 +12,22 @@ function writesettings(settings,filelocation){
     });
 }
 //uses JSON to load settings
-function loadsettings(filelocation){
-  const fileName = filelocation;
-  fs.readFile(fileName, 'utf8', (err, data) => {
-    if (err) {
-      console.log(err);
-      return;
-    }
-    else{
-      return JSON.parse(data);
-    }
-});
+async function loadsettings(filelocation){
+  var fileName = filelocation;
+  return JSON.parse(fs.readFileSync(fileName, "utf-8"));
 }
+
 function addadmin(settings,admin){
     settings.admins.push(admin);
+}
+function remadmin(settings,admin){
+    settings.admins.splice(settings.admins.indexOf(admin),1);
+}
+
+function addmanager(settings,manager){
+    settings.managers.push(manager);
+}
+function remmanager(settings,manager){
+    settings.managers.splice(settings.managers.indexOf(manager),1);
 }
 

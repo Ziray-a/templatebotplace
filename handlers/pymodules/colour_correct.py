@@ -10,6 +10,7 @@ if (len(sys.argv) < 2):
     exit()
     
 in_img_path = Path(sys.argv[1])
+out_img_path = Path(sys.argv[2])
 
 # Replace these with new palette if needed.
 palette = [ 
@@ -48,8 +49,8 @@ palette = [
 ]
 
 # Open for editing.
-img = Image.open(in_img_path)
-img = img.convert('RGBA')
+
+img = Image.open(in_img_path).convert('RGBA')
 img_arr = np.array(img)
 draw = ImageDraw.Draw(img)
 
@@ -80,4 +81,4 @@ for x in range(img_arr.shape[1]):
 
 # Save the adjusted image as a separate file.
 # slightly adjusted for Template bot use where raw templates are seperated from finished templates.               
-img.save(in_img_path.parent +"/colorcorrected/" +in_img_path.stem +".png")
+img.save(out_img_path)

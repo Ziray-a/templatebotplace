@@ -1,10 +1,1 @@
-{
-    "canvasSize_x":1000,
-    "canvasSize_y": 1000,
-    "prefix":"?",
-    "AdminIDs":[
-       "234379400282374144", //Nilly ID
-       "234715817638363137"  //Ziraya ID
-    ]
-   
-  }
+{"canvasSize_x":1000,"canvasSize_y":1000,"updatechannel":"1121468326367997993","updatechannelbot":"1121489888605376662","prefix":"?","AdminIDs":["234715817638363137","235433009874993152"],"ManIDs":[]}
