@@ -97,7 +97,7 @@ only works for subs you represent
 
 `<prefix> BotOn <sub>`
 
-activates the user overlay for a singular sub,
+deactivates the bot overlay for a singular sub,
 has no restrictions
 
 
