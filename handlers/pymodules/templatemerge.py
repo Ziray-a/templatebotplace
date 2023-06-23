@@ -20,7 +20,8 @@ new_image_dest=sys.argv[5]
 toggled = [item for sublist in toggled for item in sublist]
 filenames = next(walk(walk_dir), (None, None, []))[2]
 images =[Image.open(walk_dir / filename).convert('RGBA') for filename in filenames if filename.endswith(".png") and filename[:-4] not in toggled]
-template_arr=np.array(images[0])
+template_img=Image.new( mode = "RGBA", size = (size_x, size_y) )
+template_arr=np.array()
 for image in images:
     for x in range(size_x):
         for y in range(size_y):
