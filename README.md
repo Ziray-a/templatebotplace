@@ -3,18 +3,27 @@ If you see this you are one of the few chosen ones to be included in this dump
 sorry not sorry
 
 ## Admin Commands
+
+`prefix setcanvas <x> <y>`
+
+Changes the canvas size
+
 `<prefix> addadmin`
+
 Adds an Admin to the settings AdminID list,
 Managers are the highest administrative level
 
 `<prefix> setcanvas <x> <y>`
+
 Used when the canvas gets set to another pixel size
 
 `<prefix> addmanager`
+
 Used to add a manager to the settings ManID list.
 Managers are the next administrative level below Admin
 
 `<prefix> remmanager`
+
 Removes managers from the settings ManID list.
 
 
@@ -93,7 +102,7 @@ only works for subs you represent
 
 `<prefix> BotOn <sub>`
 
-activates the user overlay for a singular sub,
+deactivates the bot overlay for a singular sub,
 has no restrictions
 
 
