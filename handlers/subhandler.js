@@ -1,5 +1,6 @@
 module.exports = { readsubs, writesubs, addsub, addrep, remsub };
 const fs = require("fs");
+const {updatefullTemplate} =require("./handlers/templatehandler.js");
 /*<subreddit>:{
     reps:[<representativeID1>,<representativeID2>,<representativeID3>],
     template:"./templates/<subreddit>.png " //without the r/ prefix
@@ -28,13 +29,18 @@ function addsub(subs,sub,template){
 }
 
 //remove subs, firt remove reps to avoid duplicates in allreps
-function remsub(subs,sub){
+async function remsub(subs,sub){
     reps=subs.subs[sub].reps;
     for (i in reps){
         remrep(subs,sub,reps[i]);
     }
     fs.unlinkSync("./templates/"+sub+".png");
     delete subs.subs[sub];
+    await delay(500)
+    updatefullTemplate(settings,settings.updatechannelbot,msg,"./templatebot.png","./toggledbot.csv");
+    await delay(500)
+    updatefullTemplate(settings,settings.updatechannel,msg,"./template.png","./toggled.csv");
+  
 
 }
 //pushes rep to sub.reps and sub.allreps arrays
