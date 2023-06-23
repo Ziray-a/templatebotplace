@@ -3,6 +3,11 @@ If you see this you are one of the few chosen ones to be included in this dump
 sorry not sorry
 
 ## Admin Commands
+
+`prefix setcanvas <x> <y>`
+
+Changes the canvas size
+
 `<prefix> addadmin`
 
 Adds an Admin to the settings AdminID list,
