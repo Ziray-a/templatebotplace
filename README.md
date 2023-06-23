@@ -103,7 +103,7 @@ only works for subs you represent
 `<prefix> BotOn <sub>`
 
 deactivates the bot overlay for a singular sub,
-has no restrictions
+only works for subs you represent
 
 
 ## Public commands
