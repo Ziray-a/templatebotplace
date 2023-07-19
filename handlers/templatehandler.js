@@ -108,13 +108,22 @@ async function downloadImage(url, filepath) {
           .once('close', () => resolve(filepath)); 
   });
 }
-function updatefullTemplate(settings,updatechannel,msg,dest,toggled){
+function updatefullTemplate(settings,updatechannel,msg,dest,toggled,bot=false){
   templatereturn= execSync("python ./handlers/pymodules/templatemerge.py ./templates/ " +settings.canvasSize_x +" " +settings.canvasSize_y +" "+toggled +" " +dest).toString();
   sendchannel=msg.guild.channels.cache.find(channel => channel.id === updatechannel);
+  if(bot==false){
+  templatedottet= execSync("python ./handlers/pymodules/normal_to_dotted.py "+"./template.png").toString();
+  fs.readFile("./dottet.png", function(err, data) {
+    if (err) throw err; // Fail if the file can't be read.
+    sendchannel.send({files: [{attachment: data, name: "template.png"}]}).then(()=>{return;});
+  });
+  }
+  else{
   fs.readFile(dest, function(err, data) {
     if (err) throw err; // Fail if the file can't be read.
     sendchannel.send({files: [{attachment: data, name: "template.png"}]}).then(()=>{return;});
 });
+  }
 }
 function toggleTemplate(msg,settings,sub){
   fs.writeFileSync("./toggled.csv",fs.readFileSync("./toggled.csv").toString()+sub+"\n");
@@ -126,11 +135,11 @@ function untoggleTemplate(msg,settings,sub){
 }
 function togglebot(msg,settings,sub){
   fs.writeFileSync("./toggledbot.csv",fs.readFileSync("./toggledbot.csv").toString()+sub+"\n");
-  updatefullTemplate(settings,settings.updatechannelbot,msg,"./templatebot.png","./toggledbot.csv");
+  updatefullTemplate(settings,settings.updatechannelbot,msg,"./templatebot.png","./toggledbot.csv",true);
 }
 function untogglebot(msg,settings,sub){
   fs.writeFileSync("./toggledbot.csv",fs.readFileSync("./toggledbot.csv").toString().replace(sub+"\n",""));
-  updatefullTemplate(settings,settings.updatechannelbot,msg,"./templatebot.png","./toggledbot.csv");
+  updatefullTemplate(settings,settings.updatechannelbot,msg,"./templatebot.png","./toggledbot.csv",true);
 }
 async function updateTemplate(msg,settings,sub){
     fs.writeFileSync("./templatesraw/"+sub+".png",fs.readFileSync("./templatestobe/"+sub+".png"));

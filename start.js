@@ -2,16 +2,6 @@ const templateHandler = require("./handlers/templatehandler.js");
 const Discord = require("discord.js");
 const settingsHandler= require("./handlers/settingshandler.js");
 const subHandler= require("./handlers/subhandler.js");
-const simpleGit = require('simple-git');
-simpleGit().clean(simpleGit.CleanOptions.FORCE);
-
-
-const options = new simpleGit.SimpleGitOptions({
-  baseDir: process.cwd(),
-  binary: 'git',
-  maxConcurrentProcesses: 6,
-  trimmed: false,
-});
 
 var settings,subs;
 
@@ -216,15 +206,12 @@ var command=msg.content.split(" ");
     //removes a sub from the subs array
     case settings.prefix+"RemSub":
       if (command[1] in subs.subs){
-        subHandler.remsub(subs,command[1]).then(()=>{
-          subHandler.writesubs(subs,"./subs.json");
-          msg.reply("Subreddit removed");
-        })
-        
+        subHandler.remsub(subs,command[1]);
+        subHandler.writesubs(subs,"./subs.json");
+        msg.reply("Subreddit removed");
       }
     }
   }
-
   //border to rep commands
   if(subs.allreps.includes(msg.author.id)){
     switch(command[0]){
