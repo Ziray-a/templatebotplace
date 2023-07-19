@@ -47,7 +47,7 @@ async function addslot(msg,settings){
         await delay(500)
         updatefullTemplate(settings,settings.updatechannel,msg,"./template.png","./toggled.csv");
         await delay(500)
-        updatefullTemplate(settings,settings.updatechannelbot,msg,"./templatebot.png","./toggledbot.csv");
+        updatefullTemplate(settings,settings.updatechannelbot,msg,"./templatebot.png","./toggledbot.csv",true);
         msg.reply("Template has been added to the canvas!")
         }
 
@@ -60,12 +60,12 @@ async function addslot(msg,settings){
 }
 
 function colorcorrect(sub){
-  result = execSync("python ./handlers/pymodules/colour_correct.py ./templatesraw/"+sub+".png ./templates/"+sub+".png").toString();
+  result = execSync("python3 ./handlers/pymodules/colour_correct.py ./templatesraw/"+sub+".png ./templates/"+sub+".png").toString();
   console.log(result);
   
 }
 function one_by_one_to_three_by_three(image){
-  var python= execSync('python', ['./pymodules/normal_to_dotted.py', image]);
+  var python= execSync('python3', ['./pymodules/normal_to_dotted.py', image]);
   python.on('close', (code) => {
     if (code !== 0) {
       console.error(`child process exited with code ${code}`);
@@ -92,7 +92,7 @@ function returnTemplate(msg,sub){
 async function testTemplate(msg,settings,sub){
   await addtobe(msg,settings);
   //execute python script to get the 2d array of true/false values
-  ressubs=  execSync("python ./handlers/pymodules/template_to_truefalse.py ./templates/"+sub+".png ./templatestobe/"+sub+".png").toString();
+  ressubs=  execSync("python3 ./handlers/pymodules/template_to_truefalse.py ./templates/"+sub+".png ./templatestobe/"+sub+".png").toString();
 return ressubs;
 }
 
@@ -109,10 +109,10 @@ async function downloadImage(url, filepath) {
   });
 }
 function updatefullTemplate(settings,updatechannel,msg,dest,toggled,bot=false){
-  templatereturn= execSync("python ./handlers/pymodules/templatemerge.py ./templates/ " +settings.canvasSize_x +" " +settings.canvasSize_y +" "+toggled +" " +dest).toString();
+  templatereturn= execSync("python3 ./handlers/pymodules/templatemerge.py ./templates/ " +settings.canvasSize_x +" " +settings.canvasSize_y +" "+toggled +" " +dest).toString();
   sendchannel=msg.guild.channels.cache.find(channel => channel.id === updatechannel);
   if(bot==false){
-  templatedottet= execSync("python ./handlers/pymodules/normal_to_dotted.py "+"./template.png").toString();
+  templatedottet= execSync("python3 ./handlers/pymodules/normal_to_dotted.py "+"./template.png").toString();
   fs.readFile("./dottet.png", function(err, data) {
     if (err) throw err; // Fail if the file can't be read.
     sendchannel.send({files: [{attachment: data, name: "template.png"}]}).then(()=>{return;});
