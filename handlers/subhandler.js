@@ -1,6 +1,6 @@
 module.exports = { readsubs, writesubs, addsub, addrep, remsub };
 const fs = require("fs");
-const {updatefullTemplate} =require("./templatehandler.js");
+const {updatefullTemplate,gisty} =require("./templatehandler.js");
 /*<subreddit>:{
     reps:[<representativeID1>,<representativeID2>,<representativeID3>],
     template:"./templates/<subreddit>.png " //without the r/ prefix
@@ -39,7 +39,8 @@ async function remsub(subs,sub){
     await delay(500)
     updatefullTemplate(settings,settings.updatechannelbot,msg,"./templatebot.png","./toggledbot.csv");
     await delay(500)
-    updatefullTemplate(settings,settings.updatechannel,msg,"./template.png","./toggled.csv",true);
+    updatefullTemplate(settings,settings.updatechannel,msg,"./template.png","./toggled.csv");
+    
   
 
 }

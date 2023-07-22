@@ -23,8 +23,9 @@ images =[Image.open(walk_dir / filename).convert('RGBA') for filename in filenam
 template_img=Image.new( mode = "RGBA", size = (size_x, size_y) )
 template_arr=np.array(template_img)
 for image in images:
-    for x in range(size_x):
-        for y in range(size_y):
+    imagesize=image.size
+    for x in range(imagesize[0]):
+        for y in range(imagesize[1]):
             R, G, B, A = image.getpixel((x,y))
             if (A == 0):
                 continue

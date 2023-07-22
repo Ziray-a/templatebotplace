@@ -2,10 +2,10 @@ const templateHandler = require("./handlers/templatehandler.js");
 const Discord = require("discord.js");
 const settingsHandler= require("./handlers/settingshandler.js");
 const subHandler= require("./handlers/subhandler.js");
-
+const fs = require("fs");
 var settings,subs;
 
-const TOKEN = "MTEyMTEyNzI1OTk5MDkzMzU4Mg.Gtw7Wl.NmhjtChmEqFFwbzmQXjtAiIEdAVmxZBRm7TqLM"; //tokenhere
+const TOKEN = ""; //tokenhere
 
 
 const Intents = new Discord.IntentsBitField();
@@ -24,10 +24,12 @@ main();
 bot.on('ready', c => {
     console.log(`Logged in as ${c.user.tag}!`);
       bot.user.setActivity("Put your templates in the designated channel");
+      
   });
   
 bot.on('messageCreate', msg =>{
   if(msg.author.bot) return;
+
 var command=msg.content.split(" ");
   //Border to Admin commands
   if(settings.AdminIDs.includes(msg.author.id)){
@@ -81,7 +83,9 @@ var command=msg.content.split(" ");
       //border to manager commands
       if(settings.ManIDs.includes(msg.author.id) || settings.AdminIDs.includes(msg.author.id)){
       switch(command[0]){
-
+        case settings.prefix+"gist":
+          templateHandler.gisty(msg,settings).then(()=>{msg.reply("Gist updated!")})
+        break;
         case settings.prefix+"OverlayOff":
           if(command[1] in subs.subs){
             msg.channel.send("Disabling "+command[1]+" for user Overlay")
@@ -159,20 +163,42 @@ var command=msg.content.split(" ");
       case settings.prefix+"updateTemplate":
       if(command[1] in subs.subs){
         msg.channel.send("checking template \n please wait...")
+        file = msg.attachments.first();
+        if (!file) {
+          msg.reply("**ERROR!** No Template File given")
+          return;
+        
+        }
+        if (file.width != settings.canvasSize_x || file.height != settings.canvasSize_y){
+          msg.reply("**ERROR!** Template size does not equal the current size of the r/place canvas!")
+          return false;
+        }
         templateHandler.testTemplate(msg,settings,command[1]).then(result => {
           isvalid = result;
         if(isvalid=="false"){
-          msg.reply("This template will overwrite the current templates **SIZE** or **NUMBER OF ALOCATED PIXELS**, please confirn with yes");
-          bot.on('messageCreate', msgreply =>{
-            if(msg.author.id === msgreply.author.id){
-            if(msgreply.content.toLocaleLowerCase()=="yes"){
-              templateHandler.updateTemplate(msg,settings,command[1]).then(msg.reply("Template force-updated!"));
+          msg.reply("This template will overwrite the current templates **SIZE** or **NUMBER OF ALOCATED PIXELS**, please confirm with yes");
+          let filter = message => message.author.id === msg.author.id
+          msg.channel.awaitMessages({
+            filter,
+            max: 1,
+            time: 600000,
+            errors: ['time']
+          }).then(collected=>{
+            msgreply=collected.first()
+            if(msgreply.content.split()[0]=="yes"){
+              msg.reply("Updating...")
+              templateHandler.updateTemplate(msg,settings,command[1]).then(() =>msg.reply("Template force-updated!"));
+              return;
             }
             else{
               msg.reply("Template not updated");
               return;
             }
-        }});
+          }).catch((error)=>{
+            msg.channel.send("No response, update aborted")
+          console.log(error)
+          }
+          );
         }
         else{
         templateHandler.updateTemplate(msg,settings,command[1]).then(msg.reply("Template updated!"));
@@ -297,6 +323,19 @@ var command=msg.content.split(" ");
 
   //general public comands
   switch(command[0]){
+    case settings.prefix+"getToggled":
+      toggled=fs.readFileSync("./toggled.csv").toString().replace("\n"," ")
+      toggledbot=fs.readFileSync("./toggledbot.csv").toString().replace("\n"," ")
+      msg.reply("Currently the following subreddits are being toggled for the overlay: "+toggled +"\n for the bot: "+toggledbot)
+    break;
+    case settings.prefix+"getSubs":
+      var subis=""
+      for(sub in subs.subs){
+        subis +=sub+", "
+        
+      }
+      msg.reply("Currently the following subreddits are being represented: \n" +subis)
+      break;
     case settings.prefix+"getTemplate":
       if(command[1] in subs.subs){
         msg.reply("fetching template...")

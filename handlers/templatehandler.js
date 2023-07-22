@@ -1,10 +1,78 @@
 const Axios = require('axios');
-module.exports = { addslot, returnTemplate, testTemplate,updateTemplate, toggleTemplate, untoggleTemplate, togglebot, untogglebot};
+module.exports = { addslot, returnTemplate, testTemplate,updateTemplate, toggleTemplate, untoggleTemplate, togglebot, untogglebot, gisty};
 const fs = require("fs");
 const https =require("https");
 var {execSync} = require('child_process');
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms)) 
+const gitoken=""//token for github
+const { Octokit, App } = require("octokit");
+const fetch= require("node-fetch")
+const octokit = new Octokit({
+  auth: gitoken,
+  request:{
+    fetch: fetch
+  }
+})
+var jsonup={
 
+  "contact": "",
+
+  "templates": [
+
+    {
+
+      "name": "Furry_irl",
+
+      "sources": [
+
+        "https://cdn.discordapp.com/attachments/953204318612365332/1132075632780660736/empty_1500_1000.png"
+
+      ],
+
+      "x": 0,
+
+      "y": 0
+
+    }
+
+  ],
+
+  "whitelist": [],
+
+  "blacklist": []
+
+}
+
+
+async function gisty(msg,settings){
+  console.log("gitsied")
+  sendchannel= await msg.guild.channels.cache.find(channel => channel.id === settings.updatechannel);
+  if (sendchannel) { // make sure that the targeted channel exists, if it exists then fetch its last message
+      foundmessage =await sendchannel.messages.fetch({ limit: 1 })
+      console.log(foundmessage);
+      const file = foundmessage.first().attachments.first()
+      jsonup.templates[0].sources= [file.url];
+      fs.writeFileSync("./up.json",JSON.stringify(jsonup));
+      test= fs.readFileSync('./up.json', 'utf8');
+      console.log(test);
+      const options = { files: { 'furaliance.json': { content: fs.readFileSync('up.json', 'utf8') } } };
+      await octokit.request('PATCH /gists/09ce4195fada18db6dc5e32e30a8e34b', {
+        gist_id: '09ce4195fada18db6dc5e32e30a8e34b',
+        description: 'Snyc Json',
+        files: {
+          'furaliance.json': {
+            content: JSON.stringify(jsonup)
+          }
+        },
+        headers: {
+          'X-GitHub-Api-Version': '2022-11-28'
+        }
+      })
+  } else { //if target doesn't exist, send an error
+    console.log("Target does not exist!");
+  }
+
+}
 
 async function addtobe(msg,settings){
   var command=msg.content.split(" ");
@@ -111,19 +179,19 @@ async function downloadImage(url, filepath) {
 function updatefullTemplate(settings,updatechannel,msg,dest,toggled,bot=false){
   templatereturn= execSync("python3 ./handlers/pymodules/templatemerge.py ./templates/ " +settings.canvasSize_x +" " +settings.canvasSize_y +" "+toggled +" " +dest).toString();
   sendchannel=msg.guild.channels.cache.find(channel => channel.id === updatechannel);
-  if(bot==false){
+  /*if(bot==false){
   templatedottet= execSync("python3 ./handlers/pymodules/normal_to_dotted.py "+"./template.png").toString();
   fs.readFile("./dottet.png", function(err, data) {
     if (err) throw err; // Fail if the file can't be read.
     sendchannel.send({files: [{attachment: data, name: "template.png"}]}).then(()=>{return;});
   });
   }
-  else{
+  */
   fs.readFile(dest, function(err, data) {
     if (err) throw err; // Fail if the file can't be read.
     sendchannel.send({files: [{attachment: data, name: "template.png"}]}).then(()=>{return;});
 });
-  }
+  
 }
 function toggleTemplate(msg,settings,sub){
   fs.writeFileSync("./toggled.csv",fs.readFileSync("./toggled.csv").toString()+sub+"\n");
@@ -145,8 +213,8 @@ async function updateTemplate(msg,settings,sub){
     fs.writeFileSync("./templatesraw/"+sub+".png",fs.readFileSync("./templatestobe/"+sub+".png"));
     colorcorrect(sub);
     await delay(500);
-    updatefullTemplate(settings,settings.updatechannel,msg,"./template.png","./toggled.csv");
+    updatefullTemplate(settings,settings.updatechannel,msg,"./template.png","./toggled.csv")
     await delay(500);
-    updatefullTemplate(settings,settings.updatechannelbot,msg,"./templatebot.png","./toggledbot.csv");
+    updatefullTemplate(settings,settings.updatechannelbot,msg,"./templatebot.png","./toggledbot.csv",true)
   return;
 }
