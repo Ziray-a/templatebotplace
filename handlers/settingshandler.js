@@ -25,9 +25,9 @@ function remadmin(settings,admin){
 }
 
 function addmanager(settings,manager){
-    settings.managers.push(manager);
+    settings.ManIDs.push(manager);
 }
 function remmanager(settings,manager){
-    settings.managers.splice(settings.managers.indexOf(manager),1);
+    settings.ManIDs.splice(settings.managers.indexOf(manager),1);
 }
 

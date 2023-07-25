@@ -46,6 +46,7 @@ var command=msg.content.split(" ");
       settings.canvasSize_x=command[1];
       settings.canvasSize_y=command[2];
       settingsHandler.writesettings(settings,"./settings.json");
+      msg.reply("Canvas size set to: "+settings.canvasSize_x+"x"+settings.canvasSize_y);
       break;
       case settings.prefix+"addadmin":
         mention = msg.mentions.users.first().id;
@@ -84,7 +85,14 @@ var command=msg.content.split(" ");
       if(settings.ManIDs.includes(msg.author.id) || settings.AdminIDs.includes(msg.author.id)){
       switch(command[0]){
         case settings.prefix+"gist":
-          templateHandler.gisty(msg,settings).then(()=>{msg.reply("Gist updated!")})
+          if(typeof command[1] !== 'undefined' && typeof command[2] !== 'undefined'){
+          x=command[1];
+          y=command[2];
+          templateHandler.gisty(msg,settings,x,y).then(()=>{msg.reply("Gist updated!")})
+          }
+          else{
+            msg.reply("Please provide x and y coordinates")
+          }
         break;
         case settings.prefix+"OverlayOff":
           if(command[1] in subs.subs){
@@ -125,7 +133,13 @@ var command=msg.content.split(" ");
             break;
         //addrep command, adds a discordID of an representative to the sub.reps array
       case settings.prefix+"AddRep":
+        if(typeof msg.mentions.users.first() !== 'undefined'){
+          console.log(typeof msg.mentions.users)
         mention = msg.mentions.users.first().id;
+        }
+        else{
+          msg.reply("please provide a user per @mention")
+        }
         if (command[1] in subs.subs){
           if (!subs.subs[command[1]].reps.includes(mention)){
           newrep = msg.mentions.users.first();

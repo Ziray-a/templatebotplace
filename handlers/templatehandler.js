@@ -3,8 +3,8 @@ module.exports = { addslot, returnTemplate, testTemplate,updateTemplate, toggleT
 const fs = require("fs");
 const https =require("https");
 var {execSync} = require('child_process');
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms)) 
-const gitoken=""//token for github
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
+const gitoken=""
 const { Octokit, App } = require("octokit");
 const fetch= require("node-fetch")
 const octokit = new Octokit({
@@ -24,8 +24,7 @@ var jsonup={
       "name": "Furry_irl",
 
       "sources": [
-
-        "https://cdn.discordapp.com/attachments/953204318612365332/1132075632780660736/empty_1500_1000.png"
+            ""
 
       ],
 
@@ -44,18 +43,27 @@ var jsonup={
 }
 
 
-async function gisty(msg,settings){
+async function gisty(msg,settings,x,y){
   console.log("gitsied")
   sendchannel= await msg.guild.channels.cache.find(channel => channel.id === settings.updatechannel);
+  sendchannelbot = await msg.guild.channels.cache.find(channel => channel.id === settings.updatechannelbot)
   if (sendchannel) { // make sure that the targeted channel exists, if it exists then fetch its last message
       foundmessage =await sendchannel.messages.fetch({ limit: 1 })
+      foundmessagebot = await sendchannelbot.messages.fetch({limit: 1})
       console.log(foundmessage);
-      const file = foundmessage.first().attachments.first()
+      var file
+      var filebot
+      try{
+      file = foundmessage.first().attachments.first()
+      filebot = foundmessagebot.first().attachments.first() 
+      }
+      catch(error){
+        console.log(error)
+        msg.reply("error, make sure the Overlay channels ONLY have images \n other errors will be handled by us")
+      }
       jsonup.templates[0].sources= [file.url];
-      fs.writeFileSync("./up.json",JSON.stringify(jsonup));
-      test= fs.readFileSync('./up.json', 'utf8');
-      console.log(test);
-      const options = { files: { 'furaliance.json': { content: fs.readFileSync('up.json', 'utf8') } } };
+      jsonup.templates[0].x=parseInt(x);
+      jsonup.templates[0].y=parseInt(y);
       await octokit.request('PATCH /gists/09ce4195fada18db6dc5e32e30a8e34b', {
         gist_id: '09ce4195fada18db6dc5e32e30a8e34b',
         description: 'Snyc Json',
@@ -68,8 +76,21 @@ async function gisty(msg,settings){
           'X-GitHub-Api-Version': '2022-11-28'
         }
       })
+      jsonup.templates[0].sources= [filebot.url];
+      await octokit.request('PATCH /gists/a2fca3b664e951a6e7b9ef8062f03511',{
+        gist_id: 'a2fca3b664e951a6e7b9ef8062f03511',
+        description: 'Sync Json',
+        files: {
+          'furaliancebots.json': {
+            content: JSON.stringify(jsonup)
+          }
+        },
+        headers:{
+          'X-GitHub-Api-Version': '2022-11-28'
+        }
+      })
   } else { //if target doesn't exist, send an error
-    console.log("Target does not exist!");
+    console.log("Target for overlay does not exist!");
   }
 
 }
