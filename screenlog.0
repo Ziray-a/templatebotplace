@@ -1,0 +1,5303 @@
+gitsied
+/root/placebot/handlers/templatehandler.js:51
+  sendchannelbot = await msg.guild.channels.cache.fin(channel => channel.id === settings.updatechannelbot)
+                                                  ^
+
+TypeError: msg.guild.channels.cache.fin is not a function
+    at Object.gisty [90m(/root/placebot/[39mhandlers/templatehandler.js:51:51[90m)[39m
+    at runMicrotasks (<anonymous>)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+Logged in as TemplateBot#6854!
+^CLogged in as TemplateBot#6854!
+gitsied
+Collection(1) [Map] {
+  [32m'1132683425048952952'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132683425048952952'[39m,
+    createdTimestamp: [33m1690123172772[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132683424876998686'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+/root/placebot/handlers/templatehandler.js:69
+      console.log(test);
+                  ^
+
+ReferenceError: test is not defined
+    at Object.gisty [90m(/root/placebot/[39mhandlers/templatehandler.js:69:19[90m)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+Logged in as TemplateBot#6854!
+Logged in as TemplateBot#6854!
+gitsied
+Collection(1) [Map] {
+  [32m'1132683425048952952'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132683425048952952'[39m,
+    createdTimestamp: [33m1690123172772[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132683424876998686'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+/root/placebot/handlers/templatehandler.js:69
+      console.log(test);
+                  ^
+
+ReferenceError: test is not defined
+    at Object.gisty [90m(/root/placebot/[39mhandlers/templatehandler.js:69:19[90m)[39m
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+gitsied
+Collection(1) [Map] {
+  [32m'1132683425048952952'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132683425048952952'[39m,
+    createdTimestamp: [33m1690123172772[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132683424876998686'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+^CLogged in as TemplateBot#6854!
+gitsied
+Collection(1) [Map] {
+  [32m'1132700893582741545'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132700893582741545'[39m,
+    createdTimestamp: [33m1690127337595[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132700893385601084'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132701771932897402'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132701771932897402'[39m,
+    createdTimestamp: [33m1690127547010[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132701771651883008'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132701771932897402'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132701771932897402'[39m,
+    createdTimestamp: [33m1690127547010[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132701771651883008'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+Settings saved!
+Settings saved!
+gitsied
+Collection(1) [Map] {
+  [32m'1132734326564466869'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132734326564466869'[39m,
+    createdTimestamp: [33m1690135308639[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132734332725624832'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132734326400897085'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132734326564466869'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132734326564466869'[39m,
+    createdTimestamp: [33m1690135308639[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132734332725624832'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132734326400897085'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132734326564466869'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132734326564466869'[39m,
+    createdTimestamp: [33m1690135308639[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132734332725624832'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132734326400897085'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132734326564466869'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132734326564466869'[39m,
+    createdTimestamp: [33m1690135308639[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132734332725624832'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132734326400897085'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132734326564466869'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132734326564466869'[39m,
+    createdTimestamp: [33m1690135308639[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132734332725624832'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132734326400897085'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132734326564466869'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132734326564466869'[39m,
+    createdTimestamp: [33m1690135308639[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132734332725624832'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132734326400897085'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132734326564466869'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132734326564466869'[39m,
+    createdTimestamp: [33m1690135308639[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132734332725624832'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132734326400897085'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132734326564466869'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132734326564466869'[39m,
+    createdTimestamp: [33m1690135308639[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132734332725624832'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132734326400897085'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132738025508589738'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132738025508589738'[39m,
+    createdTimestamp: [33m1690136190536[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132738028725338112'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132738025311453224'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132738025508589738'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132738025508589738'[39m,
+    createdTimestamp: [33m1690136190536[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132738028725338112'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132738025311453224'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132738025508589738'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132738025508589738'[39m,
+    createdTimestamp: [33m1690136190536[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132738028725338112'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132738025311453224'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132743468519805019'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132743468519805019'[39m,
+    createdTimestamp: [33m1690137488251[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132743474244747264'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132743468259745914'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132743468519805019'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132743468519805019'[39m,
+    createdTimestamp: [33m1690137488251[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132743474244747264'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132743468259745914'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+^CLogged in as TemplateBot#6854!
+gitsied
+Collection(1) [Map] {
+  [32m'1132743468519805019'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132743468519805019'[39m,
+    createdTimestamp: [33m1690137488251[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132743468259745914'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132747129924890677'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132747129924890677'[39m,
+    createdTimestamp: [33m1690138361198[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132747132688662528'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132747129744531546'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132747129924890677'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132747129924890677'[39m,
+    createdTimestamp: [33m1690138361198[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: User {
+      id: [32m'234379400282374144'[39m,
+      bot: [33mfalse[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'nilly00'[39m,
+      discriminator: [32m'0'[39m,
+      avatar: [32m'c54076dbb00f92bb141ebc518aa7dac4'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [32m'1132747132688662528'[39m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132747129744531546'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+Settings saved!
+
+
+
+
+
+
+
+
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132777728131731487'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132777728131731487'[39m,
+    createdTimestamp: [33m1690145656379[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132777727821357109'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132777728131731487'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132777728131731487'[39m,
+    createdTimestamp: [33m1690145656379[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132777727821357109'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+Subs saved!
+gitsied
+Collection(1) [Map] {
+  [32m'1132781252471164989'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132781252471164989'[39m,
+    createdTimestamp: [33m1690146496647[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132781252282429561'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132781252471164989'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132781252471164989'[39m,
+    createdTimestamp: [33m1690146496647[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132781252282429561'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132781252471164989'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132781252471164989'[39m,
+    createdTimestamp: [33m1690146496647[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132781252282429561'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132781252471164989'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132781252471164989'[39m,
+    createdTimestamp: [33m1690146496647[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132781252282429561'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132804359286173726'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132804359286173726'[39m,
+    createdTimestamp: [33m1690152005741[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132804359110008872'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132804359286173726'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132804359286173726'[39m,
+    createdTimestamp: [33m1690152005741[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132804359110008872'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+Collection(0) [Map] {}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132832622544953385'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132832622544953385'[39m,
+    createdTimestamp: [33m1690158744227[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132832622700138506'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+^CLogged in as TemplateBot#6854!
+gitsied
+Collection(1) [Map] {
+  [32m'1132832622544953385'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132832622544953385'[39m,
+    createdTimestamp: [33m1690158744227[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132832622700138506'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+Settings saved!
+Settings saved!
+Traceback (most recent call last):
+  File "/root/placebot/./handlers/pymodules/template_to_truefalse.py", line 35, in <module>
+    if all([tf_original[x][y]==tf_new[x][y] for x in range(len(tf_original)) for y in range(len(tf_original[0])) ]):
+  File "/root/placebot/./handlers/pymodules/template_to_truefalse.py", line 35, in <listcomp>
+    if all([tf_original[x][y]==tf_new[x][y] for x in range(len(tf_original)) for y in range(len(tf_original[0])) ]):
+IndexError: list index out of range
+node:internal/errors:857
+  const err = new Error(message);
+              ^
+
+Error: Command failed: python3 ./handlers/pymodules/template_to_truefalse.py ./templates/rFRC.png ./templatestobe/rFRC.png
+Traceback (most recent call last):
+  File "/root/placebot/./handlers/pymodules/template_to_truefalse.py", line 35, in <module>
+    if all([tf_original[x][y]==tf_new[x][y] for x in range(len(tf_original)) for y in range(len(tf_original[0])) ]):
+  File "/root/placebot/./handlers/pymodules/template_to_truefalse.py", line 35, in <listcomp>
+    if all([tf_original[x][y]==tf_new[x][y] for x in range(len(tf_original)) for y in range(len(tf_original[0])) ]):
+IndexError: list index out of range
+
+[90m    at checkExecSyncError (node:child_process:861:11)[39m
+[90m    at execSync (node:child_process:932:15)[39m
+    at Object.testTemplate [90m(/root/placebot/[39mhandlers/templatehandler.js:186:13[90m)[39m
+    at runMicrotasks (<anonymous>)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m {
+  status: [33m1[39m,
+  signal: [1mnull[22m,
+  output: [
+    [1mnull[22m,
+    Buffer(0) [Uint8Array] [],
+    Buffer(491) [Uint8Array] [
+       [33m84[39m, [33m114[39m,  [33m97[39m,  [33m99[39m, [33m101[39m,  [33m98[39m,  [33m97[39m,  [33m99[39m, [33m107[39m,  [33m32[39m,  [33m40[39m, [33m109[39m,
+      [33m111[39m, [33m115[39m, [33m116[39m,  [33m32[39m, [33m114[39m, [33m101[39m,  [33m99[39m, [33m101[39m, [33m110[39m, [33m116[39m,  [33m32[39m,  [33m99[39m,
+       [33m97[39m, [33m108[39m, [33m108[39m,  [33m32[39m, [33m108[39m,  [33m97[39m, [33m115[39m, [33m116[39m,  [33m41[39m,  [33m58[39m,  [33m10[39m,  [33m32[39m,
+       [33m32[39m,  [33m70[39m, [33m105[39m, [33m108[39m, [33m101[39m,  [33m32[39m,  [33m34[39m,  [33m47[39m, [33m114[39m, [33m111[39m, [33m111[39m, [33m116[39m,
+       [33m47[39m, [33m112[39m, [33m108[39m,  [33m97[39m,  [33m99[39m, [33m101[39m,  [33m98[39m, [33m111[39m, [33m116[39m,  [33m47[39m,  [33m46[39m,  [33m47[39m,
+      [33m104[39m,  [33m97[39m, [33m110[39m, [33m100[39m, [33m108[39m, [33m101[39m, [33m114[39m, [33m115[39m,  [33m47[39m, [33m112[39m, [33m121[39m, [33m109[39m,
+      [33m111[39m, [33m100[39m, [33m117[39m, [33m108[39m, [33m101[39m, [33m115[39m,  [33m47[39m, [33m116[39m, [33m101[39m, [33m109[39m, [33m112[39m, [33m108[39m,
+       [33m97[39m, [33m116[39m, [33m101[39m,  [33m95[39m, [33m116[39m, [33m111[39m,  [33m95[39m, [33m116[39m, [33m114[39m, [33m117[39m, [33m101[39m, [33m102[39m,
+       [33m97[39m, [33m108[39m, [33m115[39m, [33m101[39m,
+      ... 391 more items
+    ]
+  ],
+  pid: [33m44811[39m,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(491) [Uint8Array] [
+     [33m84[39m, [33m114[39m,  [33m97[39m,  [33m99[39m, [33m101[39m,  [33m98[39m,  [33m97[39m,  [33m99[39m, [33m107[39m,  [33m32[39m,  [33m40[39m, [33m109[39m,
+    [33m111[39m, [33m115[39m, [33m116[39m,  [33m32[39m, [33m114[39m, [33m101[39m,  [33m99[39m, [33m101[39m, [33m110[39m, [33m116[39m,  [33m32[39m,  [33m99[39m,
+     [33m97[39m, [33m108[39m, [33m108[39m,  [33m32[39m, [33m108[39m,  [33m97[39m, [33m115[39m, [33m116[39m,  [33m41[39m,  [33m58[39m,  [33m10[39m,  [33m32[39m,
+     [33m32[39m,  [33m70[39m, [33m105[39m, [33m108[39m, [33m101[39m,  [33m32[39m,  [33m34[39m,  [33m47[39m, [33m114[39m, [33m111[39m, [33m111[39m, [33m116[39m,
+     [33m47[39m, [33m112[39m, [33m108[39m,  [33m97[39m,  [33m99[39m, [33m101[39m,  [33m98[39m, [33m111[39m, [33m116[39m,  [33m47[39m,  [33m46[39m,  [33m47[39m,
+    [33m104[39m,  [33m97[39m, [33m110[39m, [33m100[39m, [33m108[39m, [33m101[39m, [33m114[39m, [33m115[39m,  [33m47[39m, [33m112[39m, [33m121[39m, [33m109[39m,
+    [33m111[39m, [33m100[39m, [33m117[39m, [33m108[39m, [33m101[39m, [33m115[39m,  [33m47[39m, [33m116[39m, [33m101[39m, [33m109[39m, [33m112[39m, [33m108[39m,
+     [33m97[39m, [33m116[39m, [33m101[39m,  [33m95[39m, [33m116[39m, [33m111[39m,  [33m95[39m, [33m116[39m, [33m114[39m, [33m117[39m, [33m101[39m, [33m102[39m,
+     [33m97[39m, [33m108[39m, [33m115[39m, [33m101[39m,
+    ... 391 more items
+  ]
+}
+Logged in as TemplateBot#6854!
+Logged in as TemplateBot#6854!
+^C^CLogged in as TemplateBot#6854!
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132839253471150212'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132839253471150212'[39m,
+    createdTimestamp: [33m1690160325163[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132839253282398330'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+^CLogged in as TemplateBot#6854!
+gitsied
+Collection(1) [Map] {
+  [32m'1132839253471150212'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132839253471150212'[39m,
+    createdTimestamp: [33m1690160325163[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132839253282398330'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+Settings saved!
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132843939758620762'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132843939758620762'[39m,
+    createdTimestamp: [33m1690161442461[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132843939586658394'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132843939758620762'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132843939758620762'[39m,
+    createdTimestamp: [33m1690161442461[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132843939586658394'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132843939758620762'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132843939758620762'[39m,
+    createdTimestamp: [33m1690161442461[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132843939586658394'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132843939758620762'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132843939758620762'[39m,
+    createdTimestamp: [33m1690161442461[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132843939586658394'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132843939758620762'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132843939758620762'[39m,
+    createdTimestamp: [33m1690161442461[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132843939586658394'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132853605720928326'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132853605720928326'[39m,
+    createdTimestamp: [33m1690163747006[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132853605553164288'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132854727231668378'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132854727231668378'[39m,
+    createdTimestamp: [33m1690164014395[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132854727021961296'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132855023001407619'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132855023001407619'[39m,
+    createdTimestamp: [33m1690164084912[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132855022804279296'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132856711531737108'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132856711531737108'[39m,
+    createdTimestamp: [33m1690164487489[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132856711322009740'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132856933846622208'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132856933846622208'[39m,
+    createdTimestamp: [33m1690164540493[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132856933657874493'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132861342601199739'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132861342601199739'[39m,
+    createdTimestamp: [33m1690165591622[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132861342416642138'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132864400819245087'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132864400819245087'[39m,
+    createdTimestamp: [33m1690166320758[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132864400609521714'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+Settings saved!
+
+
+
+
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132867573155905617'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132867573155905617'[39m,
+    createdTimestamp: [33m1690167077102[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132867572958756874'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132867573155905617'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132867573155905617'[39m,
+    createdTimestamp: [33m1690167077102[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132867572958756874'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132871747121717248'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132871747121717248'[39m,
+    createdTimestamp: [33m1690168072253[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132871746740031559'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+Settings saved!
+
+
+
+
+
+
+
+
+
+
+
+Subs saved!
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132913784596467753'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132913784596467753'[39m,
+    createdTimestamp: [33m1690178094768[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132913784403542046'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132925926896828486'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132925926896828486'[39m,
+    createdTimestamp: [33m1690180989718[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132925926716493905'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132926594151891024'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132926594151891024'[39m,
+    createdTimestamp: [33m1690181148804[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132926593933779055'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132927240796119092'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132927240796119092'[39m,
+    createdTimestamp: [33m1690181302976[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132927240527675472'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132928130231849070'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132928130231849070'[39m,
+    createdTimestamp: [33m1690181515034[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132928129955008593'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132953494211543040'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132953494211543040'[39m,
+    createdTimestamp: [33m1690187562278[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132953493926314004'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132954401322049536'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132954401322049536'[39m,
+    createdTimestamp: [33m1690187778550[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132954401015857152'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132954902717542520'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132954902717542520'[39m,
+    createdTimestamp: [33m1690187898092[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132954902499442758'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132955775615115345'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132955775615115345'[39m,
+    createdTimestamp: [33m1690188106207[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132955775824826420'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1132955775615115345'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132955775615115345'[39m,
+    createdTimestamp: [33m1690188106207[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132955775824826420'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+Settings saved!
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132966342576852992'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132966342576852992'[39m,
+    createdTimestamp: [33m1690190625567[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132966342295830608'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132967694518464563'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132967694518464563'[39m,
+    createdTimestamp: [33m1690190947895[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132967694317129778'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1132974346919497829'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1132974346919497829'[39m,
+    createdTimestamp: [33m1690192533951[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1132974346583949383'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133002841796132944'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133002841796132944'[39m,
+    createdTimestamp: [33m1690199327659[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133002841494134894'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133010135351050374'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133010135351050374'[39m,
+    createdTimestamp: [33m1690201066578[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133010135183273984'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+^CLogged in as TemplateBot#6854!
+object
+object
+Subs saved!
+
+
+
+Settings saved!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133054179590541392'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133054179590541392'[39m,
+    createdTimestamp: [33m1690211567543[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133054179380842587'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133069173170380902'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133069173170380902'[39m,
+    createdTimestamp: [33m1690215142291[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133069172994215976'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133070895603253259'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133070895603253259'[39m,
+    createdTimestamp: [33m1690215552951[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133070895422906429'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133076655246680145'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133076655246680145'[39m,
+    createdTimestamp: [33m1690216926157[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133076655011807373'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133078486572077086'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133078486572077086'[39m,
+    createdTimestamp: [33m1690217362779[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133078486366564432'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133080145566113952'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133080145566113952'[39m,
+    createdTimestamp: [33m1690217758314[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133080145373171822'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+
+
+
+
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133110819983466687'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133110819983466687'[39m,
+    createdTimestamp: [33m1690225071665[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133110819794735135'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+object
+Subs saved!
+
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133117619071877262'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133117619071877262'[39m,
+    createdTimestamp: [33m1690226692694[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133117619105439905'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133136732443914271'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133136732443914271'[39m,
+    createdTimestamp: [33m1690231249677[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133136732171280558'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133146055991623851'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133146055991623851'[39m,
+    createdTimestamp: [33m1690233472584[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133146055773536397'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1133146055991623851'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133146055991623851'[39m,
+    createdTimestamp: [33m1690233472584[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133146055773536397'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133195404746424350'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133195404746424350'[39m,
+    createdTimestamp: [33m1690245238244[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133195404498980884'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133196847129821244'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133196847129821244'[39m,
+    createdTimestamp: [33m1690245582135[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133196846920118332'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133198765705134100'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133198765705134100'[39m,
+    createdTimestamp: [33m1690246039559[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133198765520588800'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133221485935345704'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133221485935345704'[39m,
+    createdTimestamp: [33m1690251456484[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133221485612372060'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1133221485935345704'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133221485935345704'[39m,
+    createdTimestamp: [33m1690251456484[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133221485612372060'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1133224964565258250'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133224964565258250'[39m,
+    createdTimestamp: [33m1690252285854[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133224964334567507'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133229429187940392'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133229429187940392'[39m,
+    createdTimestamp: [33m1690253350303[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133229428823031828'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133230589567324283'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133230589567324283'[39m,
+    createdTimestamp: [33m1690253626959[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133230589634428978'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133234861994409994'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133234861994409994'[39m,
+    createdTimestamp: [33m1690254645585[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133234861780516864'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1133234861994409994'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133234861994409994'[39m,
+    createdTimestamp: [33m1690254645585[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133234861780516864'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133346773046407281'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133346773046407281'[39m,
+    createdTimestamp: [33m1690281327259[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133346773075775549'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133359749488971797'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133359749488971797'[39m,
+    createdTimestamp: [33m1690284421084[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133359749317021726'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133403411090526318'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133403411090526318'[39m,
+    createdTimestamp: [33m1690294830821[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133403410914361365'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1133403411090526318'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133403411090526318'[39m,
+    createdTimestamp: [33m1690294830821[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133403410914361365'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+Subs saved!
+Settings saved!
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133451322507665518'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133451322507665518'[39m,
+    createdTimestamp: [33m1690306253793[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133451322260205628'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1133451322507665518'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133451322507665518'[39m,
+    createdTimestamp: [33m1690306253793[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133451322260205628'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133457670821658754'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133457670821658754'[39m,
+    createdTimestamp: [33m1690307767349[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133457670632906762'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1133464940527755285'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133464940527755285'[39m,
+    createdTimestamp: [33m1690309500582[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133464940443881502'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133470809587978342'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133470809587978342'[39m,
+    createdTimestamp: [33m1690310899875[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133470809386655844'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133487367416721408'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133487367416721408'[39m,
+    createdTimestamp: [33m1690314847569[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133487367215403168'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1133487390837702719'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133487390837702719'[39m,
+    createdTimestamp: [33m1690314853153[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133487390607032402'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+gitsied
+Collection(1) [Map] {
+  [32m'1133488921553162302'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133488921553162302'[39m,
+    createdTimestamp: [33m1690315218104[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133488921364402206'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+
+gitsied
+Collection(1) [Map] {
+  [32m'1133490395150569482'[39m => [36m<ref *1>[39m Message {
+    channelId: [32m'1118950293758017646'[39m,
+    guildId: [32m'960158595952050236'[39m,
+    id: [32m'1133490395150569482'[39m,
+    createdTimestamp: [33m1690315569437[39m,
+    type: [33m0[39m,
+    system: [33mfalse[39m,
+    content: [32m''[39m,
+    author: ClientUser {
+      id: [32m'1121127259990933582'[39m,
+      bot: [33mtrue[39m,
+      system: [33mfalse[39m,
+      flags: [36m[UserFlagsBitField][39m,
+      username: [32m'TemplateBot'[39m,
+      discriminator: [32m'6854'[39m,
+      avatar: [32m'f85495c33708d4023657ee516786bde7'[39m,
+      banner: [1mnull[22m,
+      accentColor: [1mnull[22m,
+      verified: [33mtrue[39m,
+      mfaEnabled: [33mtrue[39m
+    },
+    pinned: [33mfalse[39m,
+    tts: [33mfalse[39m,
+    nonce: [1mnull[22m,
+    embeds: [],
+    components: [],
+    attachments: Collection(1) [Map] { [32m'1133490394961821839'[39m => [36m[Attachment][39m },
+    stickers: Collection(0) [Map] {},
+    position: [1mnull[22m,
+    editedTimestamp: [1mnull[22m,
+    reactions: ReactionManager { message: [36m[Circular *1][39m },
+    mentions: MessageMentions {
+      everyone: [33mfalse[39m,
+      users: Collection(0) [Map] {},
+      roles: Collection(0) [Map] {},
+      _members: [1mnull[22m,
+      _channels: [1mnull[22m,
+      _parsedUsers: [1mnull[22m,
+      crosspostedChannels: Collection(0) [Map] {},
+      repliedUser: [1mnull[22m
+    },
+    webhookId: [1mnull[22m,
+    groupActivityApplication: [1mnull[22m,
+    applicationId: [1mnull[22m,
+    activity: [1mnull[22m,
+    flags: MessageFlagsBitField { bitfield: [33m0[39m },
+    reference: [1mnull[22m,
+    interaction: [1mnull[22m
+  }
+}
+^C
