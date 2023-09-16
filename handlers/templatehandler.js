@@ -25,8 +25,7 @@ var jsonup={
       "name": "Furry_irl",
 
       "sources": [
-
-        "https://cdn.discordapp.com/attachments/953204318612365332/1132075632780660736/empty_1500_1000.png"
+            ""
 
       ],
 
