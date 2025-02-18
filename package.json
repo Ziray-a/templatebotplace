@@ -7,6 +7,6 @@
     "image-downloader": "^4.3.0",
     "JSON": "^1.0.0",
     "node-fetch": "^2.6.12",
-    "octokit": "^3.1.2"
+    "octokit": "^4.1.2"
   }
 }
